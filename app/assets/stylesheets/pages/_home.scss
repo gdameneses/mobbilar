@@ -53,6 +53,16 @@ body {
   margin: 2px 8px;
 }
 
+.gallery {
+  margin-top: 2rem;
+  border-top: rgb(194, 193, 193) 2px solid;
+}
+
+.carousel-inner {
+  border-radius: 2px;
+  border: rgb(194, 193, 193) 1px solid;
+}
+
 @include media-breakpoint-down(md) {
   .banner {
     justify-content: flex-start;
