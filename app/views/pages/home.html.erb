@@ -1,112 +1,20 @@
-<section class="banner">
-  <div class="hero d-flex">
-    <div class="logo">
+<%= render "pages/navbar" %>
+<section class="hero banner container-fluid align-middle">
+  <div class="container col-lg-12 d-flex justify-content-between flex-column flex-lg-row">
+    <div class="page-title col-12 col-lg-7 text-light">
+      <p>CHEGOU A HORA DE VOCÊ TER</p>
+      <h1 class="mb-4 fw-bold">A <span class="text-primary fw-bolder">casa dos seus sonhos<br></span> com a qualidade<br> que você merece!</h1>
+      <h3 class="mb-3">Móveis planejados sob medida<br>com confiança e credibilidade!</h3>
+      <a href="" class="btn btn-primary m-2">Whatsapp</a>
     </div>
-    <div class="hero-img">
-    </div>
-  </div>
-  <div class="cta col-12 text-center mt-5">
-    <a href="#" class="btn btn-primary col-lg-4 col-sm-8 pt-3" style="height: 64px">
-      <i class="fa-regular fa-envelope"></i> Fale conosco
-    </a>
-    <a href="https://wa.me/5541984319427" target="_blank" class="btn btn-primary col-lg-1 col-sm-2 p-0" style="color: rgb(194, 193, 193); font-size: 48px; height: 64px;">
-      <i class="fa-brands fa-whatsapp"></i>
-    </a>
-  </div>
-
-</section>
-
-<div class="container p-0">
-
-<section class="gallery mt-0 pt-4 pb-4">
-  <div class="container col-lg-12 d-flex flex-wrap justify-content-between">
-    <h2 class="container-title text-center mb-4 col-12">
-      FOTOS
-    </h2>
-    <div id="carouselExampleIndicators1" class="carousel slide col-lg-4 col-sm-12 p-2" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <%= image_tag 'galery-slide/21.jpg', class:"d-block img-fluid" %>
-        </div>
-        <div class="carousel-item">
-          <%= image_tag 'galery-slide/22.jpg', class:"d-block img-fluid" %>
-        </div>
-        <div class="carousel-item">
-          <%= image_tag 'galery-slide/23.jpg', class:"d-block img-fluid" %>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <div id="carouselExampleIndicators2" class="carousel slide col-lg-4 col-sm-12 p-2" data-bs-ride="false">
-
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <%= image_tag 'galery-slide/31.jpg', class:"d-block img-fluid" %>
-        </div>
-        <div class="carousel-item">
-          <%= image_tag 'galery-slide/32.jpg', class:"d-block img-fluid" %>
-        </div>
-        <div class="carousel-item">
-          <%= image_tag 'galery-slide/33.jpg', class:"d-block img-fluid" %>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <div id="carouselExampleIndicators" class="carousel slide col-lg-4 col-sm-12 p-2" data-bs-ride="false">
-
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <%= image_tag 'galery-slide/41.JPEG', class:"d-block img-fluid" %>
-        </div>
-        <div class="carousel-item">
-          <%= image_tag 'galery-slide/42.JPEG', class:"d-block img-fluid" %>
-        </div>
-        <div class="carousel-item">
-          <%= image_tag 'galery-slide/43.jpg', class:"d-block img-fluid" %>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <div class="form col-12 col-lg-4 bg-white p-4 shadow">
+      <%= render "pages/form" %>
     </div>
   </div>
 </section>
+
+<div class="container p-0 bg-white">
+
 <h2>Lorem ipsum dolor</h2>
 <h2>Lorem ipsum dolor</h2>
 <h2>Lorem ipsum dolor</h2>

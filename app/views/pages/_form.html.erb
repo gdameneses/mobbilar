@@ -1,9 +1,18 @@
-<form class="form-inline row justify-content-center" action="https://formspree.io/f/mrgdglzp" method="POST">
-      <div class="form-group form-email col-lg-4 col-md-8 p-0">
-        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+<form class="form justify-content-center" action="https://formspree.io/f/mrgdglzp" method="POST">
+      <h2 class="form-title fs-4 fw-bold mb-4">
+        Tire suas dúvidas,<br>deixe sua mensagem!
+      </h2>
+      <div class="form-group form-email mb-4">
+        <label for="email">Email</label>
+        <input type="email" name="email" class="form-control" id="email">
       </div>
-      <div class="form-group form-phone col-lg-2 col-md-8 p-0">
-        <input type="phone" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Telefone">
+      <label for="phone">Telefone</label>
+      <div class="form-group form-phone mb-4">
+        <input type="phone" name="phone" class="form-control" id="phone">
       </div>
-      <button type="submit" class="btn btn-primary form-button col-lg-2 col-md-8">Enviar</button>
+      <label for="message">Mensagem</label>
+      <div class="form-group form-phone mb-4">
+        <textarea name="message" class="form-control" id="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary form-button col-12">Enviar!</button>
     </form>
